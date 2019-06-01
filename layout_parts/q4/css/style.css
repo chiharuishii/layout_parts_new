@@ -3,16 +3,16 @@
 /* 回答はここに書いてね */
 .bigbox{
   box-sizing: border-box;
-  padding: 20px;
 }
 .flexible{
   display: table-cell;
   padding: 20px;
   text-align: center;
 }
-.box{
+.inner_box{
   display: table;
   width: 100%;
+  padding: 20px;
 }
 .orange{
  background-color: #fbc8b8;
