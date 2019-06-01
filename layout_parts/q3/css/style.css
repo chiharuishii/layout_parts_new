@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3_table{
+  width: 100%;
+  table-layout: fixed;
+  /* テーブルの列幅を固定レイアウトにする */
+}
 th,td{
   padding: 10px;
 }
