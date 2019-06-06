@@ -38,6 +38,9 @@
   box-sizing: border-box;
   width: 225px;
 }
+.third-big-box{
+  font-size: 0;
+}
 .third-box{
   display: inline-block;
   vertical-align: middle;
@@ -58,18 +61,21 @@
   box-sizing: border-box;
 
 }
+.fifth-big-box{
+  position: relative;
+}
 .fifth-box{
-  display: inline-block;
   vertical-align: top;
+  display: inline-block;
 }
 .fifth-left-box-text{
-  height: 100%;
+  height:100%;
   width: 300px;
   box-sizing: border-box;
-  
 }
 .fifth-right-box-text{
+  position: absolute;
+  margin-right: -20px;
   margin-left: 50px;
-  width: 300px;
 }
 /* 回答はここに書いてね */
