@@ -38,9 +38,7 @@
   box-sizing: border-box;
   width: 225px;
 }
-.third-big-box{
-  font-size: 0;
-}
+
 .third-box{
   display: inline-block;
   vertical-align: middle;
