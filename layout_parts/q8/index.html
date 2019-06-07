@@ -94,134 +94,94 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8 form">
-            <div class="form-title">
-                <p class="form-title-text">Form Practice</p>
-            </div>
-            <div class="clearfix">
-              <ul class="form-left">
-                  <li class="clearfix">
-                    <p class="form-main-title">名前
-                      <span class="is-required">*</span>
-                    </p>
-                    <div class="form-main-content"> 
-                      <input type="text" name="name" size="20">
-                    </div>
-                  </li>
-                  <li class="clearfix">
-                    <p class="form-main-title">性別</p>
-                    <div class="form-main-content">
-                      <input type="radio" name="gender" value="male">男性
-                      <input type="radio" name="gender" value="female">女性
-                    </div>
-                  </li>
-                  <li class="clearfix">
-                    <p class="form-main-title">出身</p>
-                    <div class="form-main-content">
-                      <select name="from" id="">
-                        <option value="ibaraki">茨城</option>
-                        <option value="saitama">埼玉</option>
-                        <option value="tokyo">東京</option>
-                      </select>
-                    </div>
-                  </li>
-                  <li class="clearfix">
-                    <p class="form-main-title">E-mail</p>
-                    <div class="form-main-content">
-                      <input type="text" name="email" size="20" placeholder="ex)1234567@gmail.com">
-                    </div>
-                  </li>
-                  <li class="clearfix">
-                    <p class="form-main-title">電話番号</p>
-                    <div class="form-main-content">
-                      <input type="text" name="telephone" size="20" placeholder="ex)09012345678">
-                    </div>
-                  </li>
-                  <li class="clearfix">
-                    <div class="form-main-content">
-                      <input type="checkbox" name="old" value="20"><p>２０歳以上です。</p>
-                    </div>
-                  </li>
-                </ul>
-                <div class="main-btn">
-                    <button class="main-bottom-btn" type="submit">送信</button>
-                  </div>
-              <div class="form-right">
-                  <textarea name="memo" id="" cols="30" rows="10" placeholder="何かあればここにお書きください"></textarea>
-              </div>
-            </div>
-          </div>
-          <!-- 回答はここに書いてね -->
-          <form class="q8__form">
-              <div class="q8__form__title">
-                <p class="q8__form__title__text">Form Exercise</p>
-              </div>
-
-              <div class="clearfix">
-                <div class="q8__main">
-                  <ul class="q8__main__items">
-                    <li class="clearfix">
-                      <p class="q8__main__items__title">名前<span class="is-required">*</span></p>
-                      <div class="q8__main__items__content">
-                        <input class="q8__input q8__input--init" type="text" name="name" required="">
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <p class="q8__main__items__title">性別</p>
-                      <div class="q8__main__items__content">
-                        <label class="q8__radio">
-                          <input class="q8__radio__btn" type="radio" name="gender" value="male">
-                          <span class="q8__radio__text">男性</span>
-                        </label>
-                        <label class="q8__radio">
-                          <input class="q8__radio__btn" type="radio" name="gender" value="female">
-                          <span class="q8__radio__text">女性</span>
-                        </label>
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <p class="q8__main__items__title">出身</p>
-                      <div class="q8__main__items__content q8__select">
-                        <select name="hometwon" class="q8__select__body q8__input--init">
-                          <option value="tokyo">東京</option>
-                          <option value="saitama">埼玉</option>
-                          <option value="chiba">千葉</option>
-                          <option value="kanagawa">神奈川</option>
-                        </select>
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <p class="q8__main__items__title">Eメール<span class="is-required">*</span></p>
-                      <div class="q8__main__items__content">
-                        <input class="q8__input q8__input--init" type="email" placeholder="ex) hoge@gmail.com" name="email" required="">
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <p class="q8__main__items__title">電話番号</p>
-                      <div class="q8__main__items__content">
-                        <input class="q8__input q8__input--init" type="text" name="tel" placeholder="ex) 08012345678">
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <div class="q8__main__items__content">
-                        <div class="q8__checkbox">
-                          <input class="q8__checkbox__btn" id="q8-checkbox" type="checkbox" name="twenty" value="true">
-                          <label for="q8-checkbox" class="q8__checkbox__text">20歳以上です</label>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-
-                  <div class="q8__main__bottom">
-                    <button class="q8__main__bottom__btn q8__input--init" type="submit">送信</button>
-                  </div>
+          
+          <div class="q8">
+            <form class="q8 form">
+              
+                <div class="form-title">
+                    <p class="form-title-text">Form Practice</p>
                 </div>
 
-                <div class="q8__side">
-                  <textarea class="q8__side__text q8__input--init" name="message" placeholder="何かあれば入力してください。"></textarea>
+                <div class="clearfix">
+                <div class="form-main">
+                    <ul class="form-left">
+                        
+                        <li class="clearfix">
+                          <p class="form-main-title">名前
+                            <span class="is-required">*</span>
+                          </p>
+                          <div class="form-main-content"> 
+                            <input class="input input-init" type="text" name="name" size="20">
+                          </div>
+                        </li>
+
+                        <li class="clearfix">
+                          <p class="form-main-title">性別</p>
+                          <div class="form-main-content">
+                            <label class="radio">
+                              <input class="radio-btn" type="radio" name="gender" value="male">
+                              <span class="radio-text">男性</span>
+                              <input class="radio-btn" type="radio" name="gender" value="female">
+                              <span class="radio-text">女性</span>
+                            </label>  
+                          </div>
+                        </li>
+
+                        <li class="clearfix">
+                          <p class="form-main-title">出身</p>
+                          
+                          <div class="form-main-content hometown-select">
+                            <select name="hometown" class="select-body input-init">
+                              <option value="ibaraki">茨城</option>
+                              <option value="saitama">埼玉</option>
+                              <option value="tokyo">東京</option>
+                              <option value="kanagawa">神奈川</option>
+                            </select>
+                          </div>
+                        </li>
+
+                        <li class="clearfix">
+                          <p class="form-main-title">E-mail <span class="is-required">*</span>
+                          </p>
+                          <div class="form-main-content">
+                            <input class="input input-init"type="text" name="email" size="20" placeholder="ex)1234567@gmail.com">
+                          </div>
+                        </li>
+
+                        <li class="clearfix">
+                          <p class="form-main-title">電話番号</p>
+                          <div class="form-main-content">
+                            <input class="input input-init"type="text" name="telephone" size="20" placeholder="ex)09012345678">
+                          </div>
+                        </li>
+
+                        <li class="clearfix">
+                          <div class="form-main-content">
+                            <input class="checkbox-btn" id="q8-checkbox" type="checkbox" name="twenty" value="true">
+                            <label for="q8-checkbox" class="checkbox-text">20歳以上です</label>
+                          </div>
+                        </li>
+
+                      </ul>
+
+                    <div class="main-btn">
+                        <button class="main-bottom-btn input-init" type="submit">送信</button>
+                    </div>
+
                 </div>
+              
+
+                <div class="form-right">
+                    <textarea class="side-text input-init" name="memo" placeholder="何かあればここにお書きください"></textarea>
+                </div>
+                
               </div>
+            
             </form>
+        </div>
+
+          <!-- 回答はここに書いてね -->
+          
         </div>
       </div>
     </div>
