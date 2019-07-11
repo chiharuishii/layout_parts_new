@@ -6,26 +6,26 @@
   table-layout: fixed;
   /* テーブルの列幅を固定レイアウトにする */
 }
-th,td{
+.q3_table th,td{
   padding: 10px;
 }
-td{
+.q3_table td{
   text-align: center;
   font-size:16px;
   line-height:22px;
   border: solid hsl(0, 0%, 87%) 1px;
 }
-th,td:nth-child(1){
+.q3_table th,td:nth-child(1){
  color:white;
  background-color: #2244aa;
  font-size:18px;
  line-height:26px;
  border: solid #dedede 1px;
 }
-.data-even{
+.q3_table tr:nth-child(odd){
   background-color: #ecf1f2;
 }
-.data-last{
+.q3_table tr:last-child{
   border-top: dashed #000 2px;
 }
 
