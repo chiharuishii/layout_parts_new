@@ -10,7 +10,7 @@
 .content-box p{
   font-size: 18px;
   line-height: 22px;
-  word-wrap: break-word;
+  word-break: break-all;
 }
 .img-left{
   float: left;
