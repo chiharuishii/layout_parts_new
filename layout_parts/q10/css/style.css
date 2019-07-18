@@ -26,7 +26,7 @@ p{
   bottom: -40px;
 }
 .bigbox::after{
-  border-top: 20px solid white;
+  border-top: 20px solid #fff;
   bottom: -33px;
 }
 /* 回答はここに書いてね */

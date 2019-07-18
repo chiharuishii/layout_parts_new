@@ -68,16 +68,18 @@
 .fifth-box{
   vertical-align: top;
   display: inline-block;
+  box-sizing: border-box;
 }
 .fifth-left-box-text{
   height:100%;
   width: 300px;
-  box-sizing: border-box;
+  
 }
 .fifth-right-box-text{
   width: 100%;
   position: absolute;
   margin-right: -20px;
   margin-left: 50px;
+  
 }
 /* 回答はここに書いてね */
