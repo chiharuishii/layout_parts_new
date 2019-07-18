@@ -5,18 +5,16 @@
 .first-big-box{
   width: 550px;
 }
-.first-left-box{
+.first-box{
   float: left;
   width: 225px;
-  margin-left: 0px;
+  margin-left: 50px;
   box-sizing: border-box;
 }
-.first-right-box{
-  float: left;
-  width: 225px;
-  margin-left: 25px;
-  box-sizing: border-box;
+.first-box:first-child{
+  margin-left: 0;
 }
+
 .clearfix::after {
   content: "";
   display: block;
@@ -25,42 +23,47 @@
 .secound-box{
  display:table;
 }
-.secound-left-box{
+.secound-inner-box{
   display: table-cell;
-  width: 225px;
+  padding-left: 50px;
 }
-.secound-right-box{
-  display: table-cell;
-  width: 225px;
+.secound-inner-box:first-child{
+  padding-left: 0;
+  vertical-align: middle;
 }
-.secound-right-box-text{
-  margin-left: 50px;
+.secound-box-text{
+  width: 225px;
   box-sizing: border-box;
-  width: 225px;
+  
 }
-
+.third-big-box{
+  font-size: 0;
+}
 .third-box{
+  font-size: 16px;
   display: inline-block;
   vertical-align: middle;
   width: 225px;
+  margin-left: 50px;
   box-sizing: border-box;
 }
-.third-box-right{
-  margin-left: 40px;
+.third-box:first-child{
+  margin-left: 0;
 }
 
 .fourth-box{
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
 }
 .fourth-inner-box{
   width: 225px;
   height: 100%;
   box-sizing: border-box;
-
 }
 .fifth-big-box{
   position: relative;
+  box-sizing: border-box;
 }
 .fifth-box{
   vertical-align: top;
@@ -72,6 +75,7 @@
   box-sizing: border-box;
 }
 .fifth-right-box-text{
+  width: 100%;
   position: absolute;
   margin-right: -20px;
   margin-left: 50px;
