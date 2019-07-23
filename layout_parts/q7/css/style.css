@@ -58,7 +58,6 @@
 }
 .fourth-inner-box{
   width: 225px;
-  height: 100%;
   box-sizing: border-box;
 }
 .fifth-big-box{
@@ -73,13 +72,14 @@
 .fifth-left-box-text{
   height:100%;
   width: 300px;
-  
+  box-sizing: border-box;
+  margin-right: 50px;
+ 
 }
 .fifth-right-box-text{
-  width: 100%;
-  position: absolute;
-  margin-right: -20px;
-  margin-left: 50px;
+  margin-left: -300px;
+  padding-left: 350px;
+  
   
 }
 /* 回答はここに書いてね */
